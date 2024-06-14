@@ -25,11 +25,11 @@ class Test_Cases:                          # Class name must be in Capital latte
     @pytest.mark.Arithmatic
     def test_Minus(self):
         C = 236
-        D = 125
+        D = 126
         Minus = C - D
         print(Minus)
 
-        if Minus == 111:
+        if Minus == 110:
             print("Test Case id Passed")
         else:
             print("Test Case id Failed")
